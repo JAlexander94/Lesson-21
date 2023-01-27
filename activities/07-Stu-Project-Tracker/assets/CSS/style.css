@@ -2,10 +2,35 @@
 :root{--lightblue: #ecf0f1;}
 :root{--red: #e74c3c;}
 
-h1, h2 {
+h1, h2, th {
     color: white;
 }
+h3{
+    font-size: 15px !important;
+}
 
-#header{
+#header, .card-header, .card-footer{
     background-color: var(--darkblue) !important;
+}
+thead{
+    background-color: var(--red);
+}
+th{
+    border: solid 1px white;
+}
+
+button{
+    background-color: var(--lightblue) !important;
+    border: none !important;
+    color: var(--darkblue) !important;
+}
+
+.card{
+    padding: 0 !important;
+}
+#secondary-heading{
+    background-color: var(--lightblue) !important;
+}
+#skills-form{
+    padding: 10px
 }
